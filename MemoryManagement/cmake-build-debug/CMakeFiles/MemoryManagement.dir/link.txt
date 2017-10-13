@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MemoryManagement.dir/main.cpp.o CMakeFiles/MemoryManagement.dir/DS/file.cpp.o CMakeFiles/MemoryManagement.dir/DS/node.cpp.o  -o MemoryManagement 

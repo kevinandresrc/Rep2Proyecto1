@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/RepProyecto1/MemoryManagement/DS/file.cpp
+file.h
+/home/kevin/RepProyecto1/MemoryManagement/DS/file.h
+string
+-
+
+/home/kevin/RepProyecto1/MemoryManagement/DS/file.h
+iostream
+-
+cstddef
+-
+stdlib.h
+-
+string
+-
+
+/home/kevin/RepProyecto1/MemoryManagement/DS/node.cpp
+file.h
+/home/kevin/RepProyecto1/MemoryManagement/DS/file.h
+string
+-
+
+/home/kevin/RepProyecto1/MemoryManagement/main.cpp
+iostream
+-
+DS/file.cpp
+/home/kevin/RepProyecto1/MemoryManagement/DS/file.cpp
+DS/node.cpp
+/home/kevin/RepProyecto1/MemoryManagement/DS/node.cpp
+typeinfo
+-
+

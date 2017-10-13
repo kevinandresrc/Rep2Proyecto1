@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/ConexionServer.dir/main.cpp.o CMakeFiles/ConexionServer.dir/server/request.cpp.o  -o ConexionServer 
