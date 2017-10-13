@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kevin/RepProyecto1/MemoryManagement/DS/file.cpp" "/home/kevin/RepProyecto1/MemoryManagement/cmake-build-debug/CMakeFiles/MemoryManagement.dir/DS/file.cpp.o"
-  "/home/kevin/RepProyecto1/MemoryManagement/DS/node.cpp" "/home/kevin/RepProyecto1/MemoryManagement/cmake-build-debug/CMakeFiles/MemoryManagement.dir/DS/node.cpp.o"
-  "/home/kevin/RepProyecto1/MemoryManagement/main.cpp" "/home/kevin/RepProyecto1/MemoryManagement/cmake-build-debug/CMakeFiles/MemoryManagement.dir/main.cpp.o"
+  "/home/kevin/Rep2Proyecto1/MemoryManagement/DS/file.cpp" "/home/kevin/Rep2Proyecto1/MemoryManagement/cmake-build-debug/CMakeFiles/MemoryManagement.dir/DS/file.cpp.o"
+  "/home/kevin/Rep2Proyecto1/MemoryManagement/DS/node.cpp" "/home/kevin/Rep2Proyecto1/MemoryManagement/cmake-build-debug/CMakeFiles/MemoryManagement.dir/DS/node.cpp.o"
+  "/home/kevin/Rep2Proyecto1/MemoryManagement/main.cpp" "/home/kevin/Rep2Proyecto1/MemoryManagement/cmake-build-debug/CMakeFiles/MemoryManagement.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

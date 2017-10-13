@@ -8,6 +8,7 @@
 #include <sys/types.h>
 #include <thread>
 #include "request.h"
+#include <sstream>
 
 /*
 
@@ -86,9 +87,12 @@ void startServer(std::string kind)
     }
 }
 
-    void enviar()
+    void enviar(request rq, int s)
     {
-        //send(new_socket , hello , strlen(hello) , 0 );
+        stringstream ss;
+        ss << rq;
+
+        write(s, ss.str().c_str(), sizeof(request));
     }
 
     void leer()
@@ -96,14 +100,20 @@ void startServer(std::string kind)
         while(true)
         {
 
+            request a;
+            stringstream ss;
             char buf[sizeof(request)];
-            read(new_socket,buf, sizeof(request));
-            request *msg = reinterpret_cast<request*>(buf);
-            std::cout<< "data: " << msg->data <<endl;
-            std::cout<< "size: " << msg->size <<endl;
-            std::cout<< "key: " << sizeof(msg->key) <<endl;
-            std::cout<< "solicitud: " << msg->solicitud <<endl;
+            string temp;
 
+            read(new_socket, buf, sizeof(request));
+            temp.assign(buf);
+            ss << temp;
+            ss >> a;
+            cout<<a.size<<endl;
+            cout<<a.data<<endl;
+            cout<<a.key<<endl;
+            cout<<a.solicitud<<endl;
+            break;
 
         }
 

@@ -43,10 +43,10 @@ RM = /opt/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/RepProyecto1/ConexionServer
+CMAKE_SOURCE_DIR = /home/kevin/Rep2Proyecto1/ConexionServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/RepProyecto1/ConexionServer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ConexionServer.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ConexionServer.dir/flags.make
 
 CMakeFiles/ConexionServer.dir/main.cpp.o: CMakeFiles/ConexionServer.dir/flags.make
 CMakeFiles/ConexionServer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/RepProyecto1/ConexionServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConexionServer.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConexionServer.dir/main.cpp.o -c /home/kevin/RepProyecto1/ConexionServer/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConexionServer.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConexionServer.dir/main.cpp.o -c /home/kevin/Rep2Proyecto1/ConexionServer/main.cpp
 
 CMakeFiles/ConexionServer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConexionServer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/RepProyecto1/ConexionServer/main.cpp > CMakeFiles/ConexionServer.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/Rep2Proyecto1/ConexionServer/main.cpp > CMakeFiles/ConexionServer.dir/main.cpp.i
 
 CMakeFiles/ConexionServer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConexionServer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/RepProyecto1/ConexionServer/main.cpp -o CMakeFiles/ConexionServer.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/Rep2Proyecto1/ConexionServer/main.cpp -o CMakeFiles/ConexionServer.dir/main.cpp.s
 
 CMakeFiles/ConexionServer.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ConexionServer.dir/main.cpp.o.provides.build: CMakeFiles/ConexionServ
 
 CMakeFiles/ConexionServer.dir/server/request.cpp.o: CMakeFiles/ConexionServer.dir/flags.make
 CMakeFiles/ConexionServer.dir/server/request.cpp.o: ../server/request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/RepProyecto1/ConexionServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConexionServer.dir/server/request.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConexionServer.dir/server/request.cpp.o -c /home/kevin/RepProyecto1/ConexionServer/server/request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConexionServer.dir/server/request.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConexionServer.dir/server/request.cpp.o -c /home/kevin/Rep2Proyecto1/ConexionServer/server/request.cpp
 
 CMakeFiles/ConexionServer.dir/server/request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConexionServer.dir/server/request.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/RepProyecto1/ConexionServer/server/request.cpp > CMakeFiles/ConexionServer.dir/server/request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/Rep2Proyecto1/ConexionServer/server/request.cpp > CMakeFiles/ConexionServer.dir/server/request.cpp.i
 
 CMakeFiles/ConexionServer.dir/server/request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConexionServer.dir/server/request.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/RepProyecto1/ConexionServer/server/request.cpp -o CMakeFiles/ConexionServer.dir/server/request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/Rep2Proyecto1/ConexionServer/server/request.cpp -o CMakeFiles/ConexionServer.dir/server/request.cpp.s
 
 CMakeFiles/ConexionServer.dir/server/request.cpp.o.requires:
 
@@ -117,7 +117,7 @@ ConexionServer: CMakeFiles/ConexionServer.dir/main.cpp.o
 ConexionServer: CMakeFiles/ConexionServer.dir/server/request.cpp.o
 ConexionServer: CMakeFiles/ConexionServer.dir/build.make
 ConexionServer: CMakeFiles/ConexionServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kevin/RepProyecto1/ConexionServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ConexionServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ConexionServer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConexionServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/ConexionServer.dir/clean:
 .PHONY : CMakeFiles/ConexionServer.dir/clean
 
 CMakeFiles/ConexionServer.dir/depend:
-	cd /home/kevin/RepProyecto1/ConexionServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/RepProyecto1/ConexionServer /home/kevin/RepProyecto1/ConexionServer /home/kevin/RepProyecto1/ConexionServer/cmake-build-debug /home/kevin/RepProyecto1/ConexionServer/cmake-build-debug /home/kevin/RepProyecto1/ConexionServer/cmake-build-debug/CMakeFiles/ConexionServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/Rep2Proyecto1/ConexionServer /home/kevin/Rep2Proyecto1/ConexionServer /home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug /home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug /home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles/ConexionServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ConexionServer.dir/depend
 

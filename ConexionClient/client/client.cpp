@@ -10,6 +10,7 @@
 #include <arpa/inet.h>
 #include "request.h"
 #include <string>
+#include <sstream>
 
 using namespace std;
 
@@ -64,18 +65,29 @@ void startClient(){
         return;
     }
     enviar();
-
-    /*
-    send(sock, hello, strlen(hello), 0);
-    cout<<"Hello message sent"<<endl;
-    valread = read(sock, buffer, 1024);
-    printf("%s\n",buffer);
-     */
 }
 
 void enviar()
 {
-    request msg("cuatro", 5, sizeof(4), "add");
-    char* tmp = reinterpret_cast<char *>(&msg);
-    send(sock,tmp, sizeof(request),0);
-};
+    request msg("seis", 6, sizeof(4), "add");
+    stringstream ss;
+    ss << msg;
+
+    write(sock, ss.str().c_str(), sizeof(request));
+}
+
+request leer(){
+    request a;
+    stringstream ss;
+    char buf[sizeof(request)];
+    string temp;
+
+    read(sock, buf, sizeof(request));
+    temp.assign(buf);
+    ss << temp;
+    ss >> a;
+    return a;
+}
+
+
+;

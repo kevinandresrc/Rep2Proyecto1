@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/RepProyecto1/ConexionClient/client/client.cpp
+/home/kevin/Rep2Proyecto1/ConexionClient/client/client.cpp
 stdio.h
 -
 sys/socket.h
@@ -28,17 +28,19 @@ iostream
 arpa/inet.h
 -
 request.h
-/home/kevin/RepProyecto1/ConexionClient/client/request.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
 string
 -
+sstream
+-
 
-/home/kevin/RepProyecto1/ConexionClient/client/request.cpp
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.cpp
 request.h
-/home/kevin/RepProyecto1/ConexionClient/client/request.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
 string
 -
 
-/home/kevin/RepProyecto1/ConexionClient/client/request.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
 iostream
 -
 cstddef
@@ -47,12 +49,14 @@ stdlib.h
 -
 string
 -
+strstream
+-
 
-/home/kevin/RepProyecto1/ConexionClient/main.cpp
+/home/kevin/Rep2Proyecto1/ConexionClient/main.cpp
 iostream
 -
 client/client.cpp
-/home/kevin/RepProyecto1/ConexionClient/client/client.cpp
+/home/kevin/Rep2Proyecto1/ConexionClient/client/client.cpp
 client/request.h
-/home/kevin/RepProyecto1/ConexionClient/client/request.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
 

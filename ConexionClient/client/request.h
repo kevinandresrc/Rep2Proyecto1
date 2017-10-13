@@ -9,6 +9,9 @@
 #include <cstddef>
 #include <stdlib.h>
 #include <string>
+#include <strstream>
+
+using namespace std;
 
 class request {
 public:
@@ -23,6 +26,17 @@ public:
     request(std::string k, int d, int s);
     ~request();
 
+    friend ostream& operator<< (ostream& out, request& object){
+        out<< object.solicitud << " " << object.key << " " << object.data << " " << object.size;
+        return out;
+    }
+    friend istream& operator>> (istream& in, request& object){
+        in >> object.solicitud;
+        in >> object.key;
+        in >> object.data;
+        in >> object.size;
+        return in;
+    }
 
 };
 

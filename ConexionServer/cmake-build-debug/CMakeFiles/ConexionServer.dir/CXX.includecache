@@ -6,25 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/RepProyecto1/ConexionServer/main.cpp
+/home/kevin/Rep2Proyecto1/ConexionServer/main.cpp
 iostream
 -
 server/server.cpp
-/home/kevin/RepProyecto1/ConexionServer/server/server.cpp
+/home/kevin/Rep2Proyecto1/ConexionServer/server/server.cpp
 thread
 -
 pthread.h
 -
 
-/home/kevin/RepProyecto1/ConexionServer/server/request.cpp
+/home/kevin/Rep2Proyecto1/ConexionServer/server/request.cpp
 request.h
-/home/kevin/RepProyecto1/ConexionServer/server/request.h
+/home/kevin/Rep2Proyecto1/ConexionServer/server/request.h
 
-/home/kevin/RepProyecto1/ConexionServer/server/request.h
+/home/kevin/Rep2Proyecto1/ConexionServer/server/request.h
 string
 -
+strstream
+-
 
-/home/kevin/RepProyecto1/ConexionServer/server/server.cpp
+/home/kevin/Rep2Proyecto1/ConexionServer/server/server.cpp
 iostream
 -
 stdio.h
@@ -44,9 +46,11 @@ sys/types.h
 thread
 -
 request.h
-/home/kevin/RepProyecto1/ConexionServer/server/request.h
+/home/kevin/Rep2Proyecto1/ConexionServer/server/request.h
+sstream
+-
 arpa/inet.h
 -
 request.h
-/home/kevin/RepProyecto1/ConexionServer/server/request.h
+/home/kevin/Rep2Proyecto1/ConexionServer/server/request.h
 

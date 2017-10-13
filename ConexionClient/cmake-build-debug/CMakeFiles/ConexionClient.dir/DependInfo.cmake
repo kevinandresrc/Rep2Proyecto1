@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kevin/RepProyecto1/ConexionClient/client/request.cpp" "/home/kevin/RepProyecto1/ConexionClient/cmake-build-debug/CMakeFiles/ConexionClient.dir/client/request.cpp.o"
-  "/home/kevin/RepProyecto1/ConexionClient/main.cpp" "/home/kevin/RepProyecto1/ConexionClient/cmake-build-debug/CMakeFiles/ConexionClient.dir/main.cpp.o"
+  "/home/kevin/Rep2Proyecto1/ConexionClient/client/request.cpp" "/home/kevin/Rep2Proyecto1/ConexionClient/cmake-build-debug/CMakeFiles/ConexionClient.dir/client/request.cpp.o"
+  "/home/kevin/Rep2Proyecto1/ConexionClient/main.cpp" "/home/kevin/Rep2Proyecto1/ConexionClient/cmake-build-debug/CMakeFiles/ConexionClient.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

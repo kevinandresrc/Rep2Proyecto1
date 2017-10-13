@@ -1,4 +1,4 @@
-# Install script for directory: /home/kevin/RepProyecto1/ConexionClient
+# Install script for directory: /home/kevin/Rep2Proyecto1/ConexionClient
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kevin/RepProyecto1/ConexionClient/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kevin/Rep2Proyecto1/ConexionClient/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
