@@ -33,6 +33,8 @@ string
 -
 sstream
 -
+thread
+-
 
 /home/kevin/Rep2Proyecto1/ConexionClient/client/request.cpp
 request.h
