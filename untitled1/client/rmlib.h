@@ -23,6 +23,12 @@ public:
     rmlib rm_get(string key);
     void rm_delete(rmlib* file);
 
+    void operator=(const rmlib& b);
+
+    bool operator!=(const rmlib& b);
+
+    bool operator==(const rmlib& b);
+
 private:
     bool bloqueado;
     bool inicializado;

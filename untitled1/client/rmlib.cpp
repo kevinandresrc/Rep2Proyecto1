@@ -164,7 +164,38 @@ void rmlib::rm_delete(rmlib *file) {
     }
 }
 
+/*
+ * @brief sobreescribe el operador "=" asignandole el value del objeto dado
+ */
+void rmlib::operator=(const rmlib& b){
+    this->value = b.value;
+    request a(this->key,this->value,this->value_size,"change");
+    enviar(a);
+}
 
+/*
+ * @brief sobreescribe el operador "!=" comparando los value correspondientes
+ * @return true:tienen un value distinto / false:tienen el mismo value
+ */
+bool rmlib::operator!=(const rmlib& b){
+    if(this->value == b.value){
+        return false;
+    }else{
+        return true;
+    }
+}
+
+/*
+ * @brief sobreescribe el operador "==" comparando los value correspondientes
+ * @return true:tienen el mismo value / false:tienen un value destinto
+ */
+bool rmlib::operator==(const rmlib& b){
+    if(this->value != b.value){
+        return false;
+    }else{
+        return true;
+    }
+}
 
 
 
