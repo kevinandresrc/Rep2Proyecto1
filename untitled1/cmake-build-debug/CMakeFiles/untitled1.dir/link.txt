@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/untitled1.dir/main.cpp.o CMakeFiles/untitled1.dir/client/rmlib.cpp.o CMakeFiles/untitled1.dir/client/request.cpp.o  -o untitled1 
