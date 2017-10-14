@@ -58,7 +58,7 @@ void file<T>::setData(T d) {
 template <class T>
 T& file<T>::getData() {
     contador++;
-    return *dataPtr;
+    return data;
 }
 
 /*

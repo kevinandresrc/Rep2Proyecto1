@@ -212,6 +212,7 @@ void connectPasivo(){
         cout<<"Connection Failed"<<endl;
         return;
     }
+    cout<<"Se ha efectuado la conexion con el servidor activo"<<endl;
 }
 
 /*
@@ -219,6 +220,7 @@ void connectPasivo(){
  */
 void startServerPas(){
     connectPasivo();
+
     if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0) {
         cout << "Fallo" << endl;
         exit(EXIT_FAILURE);
@@ -247,8 +249,9 @@ void startServerPas(){
         cout<<"Error accept"<<endl;
         exit(EXIT_FAILURE);
     }
+    cout<<"Nuevo Cliente"<<endl;
     thread uno(leer, new_socket);
-    uno.detach();
+    uno.join();
     //leer(new_socket);
 }
 
@@ -268,6 +271,7 @@ void enviar(request rq, int s) {
  * @param int socket el socket en el cual va a escuchar esperando mensajes
  */
 void leer(int socket) {
+    request b("",1,1,"");
     while(!flagStop) {
         request a;
         stringstream ss;
@@ -277,11 +281,20 @@ void leer(int socket) {
         temp.assign(buf);
         ss << temp;
         ss >> a;
-        cout<<a.size<<endl;
-        cout<<a.data<<endl;
-        cout<<a.key<<endl;
-        cout<<a.solicitud<<endl;
-        Eficaz();
+        if(a.data!=-1 && a.data!=b.data && a.key!=b.key) {
+            cout << "size " << a.size << endl;
+            cout << "data " << a.data << endl;
+            cout << "key " << a.key << endl;
+            cout << "solicitud " << a.solicitud << endl;
+            b.solicitud = a.solicitud;
+            b.key = a.key;
+            b.data = a.data;
+            interpretar(a, new_socket);
+            Eficaz();
+            printList(head);
+        }else{
+            Eficaz();
+        }
     }
 }
 
@@ -345,6 +358,7 @@ void interpretar(request a, int socket){
         if(listContain(head, a.key)){
             file<int> aux = listSearch(head, a.key);
             request aux2(aux.getKey(), aux.getData(), aux.size, "ok");
+            cout << "data "<< aux2.data<<endl;
             contador++;
             if(contador==10){
                 listClear(head);
@@ -393,12 +407,23 @@ void interpretar(request a, int socket){
 void checkActivo(){
     if(activo){
     }else{
+        /*
         int x = checkActivoAux();
         if(x==1){
             Activo_is_dead = false;
         }else{
             Activo_is_dead = true;
+        }*/
+
+
+        int err = 0;
+        socklen_t size = sizeof (err);
+        int check = getsockopt (socketServerActivo, SOL_SOCKET, SO_ERROR, &err, &size);
+        if (check != 0)
+        {
+            Activo_is_dead = true;
         }
+        Activo_is_dead = false;
     }
 }
 

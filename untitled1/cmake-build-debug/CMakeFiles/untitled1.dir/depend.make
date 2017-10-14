@@ -8,5 +8,8 @@ CMakeFiles/untitled1.dir/client/rmlib.cpp.o: ../client/request.h
 CMakeFiles/untitled1.dir/client/rmlib.cpp.o: ../client/rmlib.cpp
 CMakeFiles/untitled1.dir/client/rmlib.cpp.o: ../client/rmlib.h
 
+CMakeFiles/untitled1.dir/main.cpp.o: ../client/request.h
+CMakeFiles/untitled1.dir/main.cpp.o: ../client/rmlib.cpp
+CMakeFiles/untitled1.dir/main.cpp.o: ../client/rmlib.h
 CMakeFiles/untitled1.dir/main.cpp.o: ../main.cpp
 
