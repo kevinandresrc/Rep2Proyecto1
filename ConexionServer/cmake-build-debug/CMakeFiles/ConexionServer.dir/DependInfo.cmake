@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kevin/Rep2Proyecto1/ConexionServer/main.cpp" "/home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles/ConexionServer.dir/main.cpp.o"
+  "/home/kevin/Rep2Proyecto1/ConexionServer/server/file.cpp" "/home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles/ConexionServer.dir/server/file.cpp.o"
   "/home/kevin/Rep2Proyecto1/ConexionServer/server/request.cpp" "/home/kevin/Rep2Proyecto1/ConexionServer/cmake-build-debug/CMakeFiles/ConexionServer.dir/server/request.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -61,24 +61,3 @@ request::request(std::string k, int d, int s, std::string sol) {
 request::~request() {
 
 }
-
-/*
- *@brief selializador
- *@param  &out
- *@param &object
- * @return
- *
-
-friend ostream& request::operator<<(ostream &out, request &object) {
-    out<< object.solicitud << " " << object.key << " " << object.data << " " << object.size;
-    return out;
-}
-
-friend istream& request::operator>>(istream &in, request &object) {
-    in >> object.solicitud;
-    in >> object.key;
-    in >> object.data;
-    in >> object.size;
-    return in;
-}
- */

@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ConexionServer.dir/build.make CMakeFiles/ConexionServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+server/file.o: server/file.cpp.o
+
+.PHONY : server/file.o
+
+# target to build an object file
+server/file.cpp.o:
+	$(MAKE) -f CMakeFiles/ConexionServer.dir/build.make CMakeFiles/ConexionServer.dir/server/file.cpp.o
+.PHONY : server/file.cpp.o
+
+server/file.i: server/file.cpp.i
+
+.PHONY : server/file.i
+
+# target to preprocess a source file
+server/file.cpp.i:
+	$(MAKE) -f CMakeFiles/ConexionServer.dir/build.make CMakeFiles/ConexionServer.dir/server/file.cpp.i
+.PHONY : server/file.cpp.i
+
+server/file.s: server/file.cpp.s
+
+.PHONY : server/file.s
+
+# target to generate assembly for a file
+server/file.cpp.s:
+	$(MAKE) -f CMakeFiles/ConexionServer.dir/build.make CMakeFiles/ConexionServer.dir/server/file.cpp.s
+.PHONY : server/file.cpp.s
+
 server/request.o: server/request.cpp.o
 
 .PHONY : server/request.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... server/file.o"
+	@echo "... server/file.i"
+	@echo "... server/file.s"
 	@echo "... server/request.o"
 	@echo "... server/request.i"
 	@echo "... server/request.s"

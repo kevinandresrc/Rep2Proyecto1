@@ -87,6 +87,12 @@
 		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionServer/main.cpp">
 			<Option target="ConexionServer"/>
 		</Unit>
+		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionServer/server/file.cpp">
+			<Option target="ConexionServer"/>
+		</Unit>
+		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionServer/server/file.h">
+			<Option target="ConexionServer"/>
+		</Unit>
 		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionServer/server/request.cpp">
 			<Option target="ConexionServer"/>
 		</Unit>
