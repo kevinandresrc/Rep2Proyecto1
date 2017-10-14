@@ -6,9 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/Rep2Proyecto1/ConexionClient/client/client.cpp
-stdio.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.cpp
+request.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
+string
 -
+
+/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
+iostream
+-
+cstddef
+-
+stdlib.h
+-
+string
+-
+strstream
+-
+
+/home/kevin/Rep2Proyecto1/ConexionClient/client/rmlib.cpp
+rmlib.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/rmlib.h
 sys/socket.h
 -
 stdlib.h
@@ -33,32 +51,14 @@ string
 -
 sstream
 -
-thread
--
 
-/home/kevin/Rep2Proyecto1/ConexionClient/client/request.cpp
-request.h
-/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
+/home/kevin/Rep2Proyecto1/ConexionClient/client/rmlib.h
 string
--
-
-/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
-iostream
--
-cstddef
--
-stdlib.h
--
-string
--
-strstream
 -
 
 /home/kevin/Rep2Proyecto1/ConexionClient/main.cpp
 iostream
 -
-client/client.cpp
-/home/kevin/Rep2Proyecto1/ConexionClient/client/client.cpp
-client/request.h
-/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h
+client/rmlib.cpp
+/home/kevin/Rep2Proyecto1/ConexionClient/client/rmlib.cpp
 

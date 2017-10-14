@@ -90,6 +90,12 @@
 		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionClient/client/request.h">
 			<Option target="ConexionClient"/>
 		</Unit>
+		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionClient/client/rmlib.cpp">
+			<Option target="ConexionClient"/>
+		</Unit>
+		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionClient/client/rmlib.h">
+			<Option target="ConexionClient"/>
+		</Unit>
 		<Unit filename="/home/kevin/Rep2Proyecto1/ConexionClient/main.cpp">
 			<Option target="ConexionClient"/>
 		</Unit>

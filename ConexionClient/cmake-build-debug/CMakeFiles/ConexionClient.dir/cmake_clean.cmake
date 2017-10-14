@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ConexionClient.dir/main.cpp.o"
+  "CMakeFiles/ConexionClient.dir/client/rmlib.cpp.o"
   "CMakeFiles/ConexionClient.dir/client/request.cpp.o"
   "ConexionClient.pdb"
   "ConexionClient"

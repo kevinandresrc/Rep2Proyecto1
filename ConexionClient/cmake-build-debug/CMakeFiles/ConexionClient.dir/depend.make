@@ -4,7 +4,12 @@
 CMakeFiles/ConexionClient.dir/client/request.cpp.o: ../client/request.cpp
 CMakeFiles/ConexionClient.dir/client/request.cpp.o: ../client/request.h
 
-CMakeFiles/ConexionClient.dir/main.cpp.o: ../client/client.cpp
+CMakeFiles/ConexionClient.dir/client/rmlib.cpp.o: ../client/request.h
+CMakeFiles/ConexionClient.dir/client/rmlib.cpp.o: ../client/rmlib.cpp
+CMakeFiles/ConexionClient.dir/client/rmlib.cpp.o: ../client/rmlib.h
+
 CMakeFiles/ConexionClient.dir/main.cpp.o: ../client/request.h
+CMakeFiles/ConexionClient.dir/main.cpp.o: ../client/rmlib.cpp
+CMakeFiles/ConexionClient.dir/main.cpp.o: ../client/rmlib.h
 CMakeFiles/ConexionClient.dir/main.cpp.o: ../main.cpp
 

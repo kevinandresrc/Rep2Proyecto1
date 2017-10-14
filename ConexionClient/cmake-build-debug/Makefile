@@ -150,6 +150,33 @@ client/request.cpp.s:
 	$(MAKE) -f CMakeFiles/ConexionClient.dir/build.make CMakeFiles/ConexionClient.dir/client/request.cpp.s
 .PHONY : client/request.cpp.s
 
+client/rmlib.o: client/rmlib.cpp.o
+
+.PHONY : client/rmlib.o
+
+# target to build an object file
+client/rmlib.cpp.o:
+	$(MAKE) -f CMakeFiles/ConexionClient.dir/build.make CMakeFiles/ConexionClient.dir/client/rmlib.cpp.o
+.PHONY : client/rmlib.cpp.o
+
+client/rmlib.i: client/rmlib.cpp.i
+
+.PHONY : client/rmlib.i
+
+# target to preprocess a source file
+client/rmlib.cpp.i:
+	$(MAKE) -f CMakeFiles/ConexionClient.dir/build.make CMakeFiles/ConexionClient.dir/client/rmlib.cpp.i
+.PHONY : client/rmlib.cpp.i
+
+client/rmlib.s: client/rmlib.cpp.s
+
+.PHONY : client/rmlib.s
+
+# target to generate assembly for a file
+client/rmlib.cpp.s:
+	$(MAKE) -f CMakeFiles/ConexionClient.dir/build.make CMakeFiles/ConexionClient.dir/client/rmlib.cpp.s
+.PHONY : client/rmlib.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... client/request.o"
 	@echo "... client/request.i"
 	@echo "... client/request.s"
+	@echo "... client/rmlib.o"
+	@echo "... client/rmlib.i"
+	@echo "... client/rmlib.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

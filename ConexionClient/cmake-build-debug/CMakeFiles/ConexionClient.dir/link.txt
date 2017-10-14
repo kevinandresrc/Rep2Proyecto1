@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/ConexionClient.dir/main.cpp.o CMakeFiles/ConexionClient.dir/client/request.cpp.o  -o ConexionClient 
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/ConexionClient.dir/main.cpp.o CMakeFiles/ConexionClient.dir/client/rmlib.cpp.o CMakeFiles/ConexionClient.dir/client/request.cpp.o  -o ConexionClient 

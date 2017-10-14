@@ -2,8 +2,8 @@
 // Created by kevin on 11/09/17.
 //
 
-#ifndef CONEXIONSERVER_REQUEST_H
-#define CONEXIONSERVER_REQUEST_H
+#ifndef CONEXIONCLIENT_REQUEST_H
+#define CONEXIONCLIENT_REQUEST_H
 
 #include <iostream>
 #include <cstddef>
@@ -41,4 +41,4 @@ public:
 };
 
 
-#endif //CONEXIONSERVER_REQUEST_H
+#endif //CONEXIONCLIENT_REQUEST_H
